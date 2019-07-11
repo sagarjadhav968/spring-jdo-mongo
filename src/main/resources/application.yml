@@ -1,0 +1,12 @@
+server:
+  port : 8081
+spring: 
+  application:
+    name : spring-jdo-mongo
+
+logging:
+  file: /tmp/spring-jdo-mongo.log 
+  level:
+    com.gic.fadv.aop.: INFO    
+    DataNucleus.Query: ERROR
+    org.mongodb.driver.connection: ERROR
